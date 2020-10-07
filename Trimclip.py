@@ -26,6 +26,8 @@ for i in range(len(listnames)):
    newclip = clip.subclip(9.25,clip.duration)
    newclip.write_videofile(listpath[i]+'/a'+listnames[i])
 
+# Run with python3 Trimclip.py
+# Movie.py library is needed
 
 '''=[1,2]
 for i in range(2):
