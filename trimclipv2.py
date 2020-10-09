@@ -12,7 +12,7 @@ fullpath=[]
 for roots, divs, files in os.walk(generalpath):
    for file in files:
       if(file.endswith(".mp4")):
-         listnames.append(os.path.join(file))          #roots,file
+         listnames.append(os.path.join(file))          #roots,file for mp4
          listpath.append(os.path.join(roots))
          fullpath.append(os.path.join(roots,file))
 
