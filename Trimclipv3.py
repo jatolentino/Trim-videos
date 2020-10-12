@@ -8,7 +8,7 @@ from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 # Folder containing the videos, with no matter if they're located in subdirectories
 generalpath ="/home/jo/Desktop/vix"
 
-# Creating the name, path and full name (path+name) of each video & storing in a arrays
+# Creating the name, path and full name (path+name) of each video & storing them in arrays
 listnames=[]
 listpath=[]
 fullpath=[]
