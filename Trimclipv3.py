@@ -1,5 +1,4 @@
 from moviepy.editor import VideoFileClip
-#from moviepy.editor import *
 import shutil, os
 from collections import Counter
 import numpy as np
