@@ -29,9 +29,3 @@ for i in range(len(listnames)):
 # Run with python3 Trimclip.py
 # Movie.py library is needed
 
-'''=[1,2]
-for i in range(2):
-   with open(listpath[i], 'w') as f:
-      data = 'some data to be written to the file'
-      f.write(data)
-'''
