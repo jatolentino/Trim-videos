@@ -27,5 +27,5 @@ for i in range(len(listnames)):
    newclip.write_videofile(listpath[i]+'/a'+listnames[i])
 
 # Run with python3 Trimclip.py
-# Movie.py library is needed
+
 
