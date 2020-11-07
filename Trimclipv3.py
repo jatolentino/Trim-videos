@@ -30,11 +30,6 @@ for roots, divs, files in os.walk(generalpath):
          listpath.append(os.path.join(roots))
          fullpath.append(os.path.join(roots,file))
 
-"""
-path, dirs, filex = next(os.walk(sublistpath[2]))  # counts the number of files inside a fold
-file_count = int(len(filex)/2)
-#print(file_count)
-"""
 
 rootss, divss, filess = next(os.walk(generalpath))
 #print(list(dict.fromkeys(divss)))
