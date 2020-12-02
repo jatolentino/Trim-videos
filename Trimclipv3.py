@@ -109,7 +109,6 @@ newlistpathsim=list(dict.fromkeys(sublistpath))
 #print()
 for i in range(len(newlistpathsim)):
    os.makedirs(newlistpathsim[i].replace("/vix/","/vix1/"))
-#"""
 ###############################################################    
 
 #print(divss)
