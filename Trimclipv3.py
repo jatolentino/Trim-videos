@@ -19,14 +19,14 @@ subfullpath=[]
 for roots, divs, files in os.walk(generalpath):
    for file in files:
       if(file.endswith(".srt")):
-         sublistnames.append(os.path.join(file))          #roots,file
+         sublistnames.append(os.path.join(file))          #roots, file
          sublistpath.append(os.path.join(roots))
          subfullpath.append(os.path.join(roots,file))
          
 for roots, divs, files in os.walk(generalpath):
    for file in files:   
       if(file.endswith(".mp4")):
-         listnames.append(os.path.join(file))          #roots,file
+         listnames.append(os.path.join(file))          #roots, file
          listpath.append(os.path.join(roots))
          fullpath.append(os.path.join(roots,file))
 
