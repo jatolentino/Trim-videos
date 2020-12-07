@@ -17,8 +17,8 @@ for roots, divs, files in os.walk(generalpath):
          fullpath.append(os.path.join(roots,file))
 
 # print(listpath)
-# Editing the video, trim the 9 first seconds of every video and store them appending the string 'a' on every
-# video's name. Every video is created inside the folder of the original video
+# Editing the video, trim the 9 first seconds of every video and store them appending the string 'a' on every video's name. 
+# Each video is created inside the folder of the original video
 
 for i in range(len(listnames)):
    clip = VideoFileClip(fullpath[i])
