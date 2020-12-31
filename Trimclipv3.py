@@ -52,7 +52,6 @@ for k in range(len(divss)):
    numberfiles.append(int(len(fileh)/2))  #divde betwen 2, video and srt
 ############################################################### 
 
-
 ############################################################### 
 diction1=dict(zip(divss, numberfiles))
 #     print(diction1)
