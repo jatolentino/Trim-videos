@@ -42,7 +42,6 @@ indexfold=int(sublistpath[2].split('/vix/')[1].split('.')[0]) # index of the fol
 print(indexfold) # ouput fold index 2
 ###############################################################
 
-
 ############################################################### 
 ##########   Print(numberfiles) # totalfiles inside each folder 
 numberfiles = []
