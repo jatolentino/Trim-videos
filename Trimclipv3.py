@@ -100,7 +100,6 @@ subnewpathfolder=[]
 inddexfile=[]
 sinddexfile=[]
 
-
 ###############################################################
 ############## CREATING THE FOLDERS  #######################
 newlistpathsim=list(dict.fromkeys(sublistpath))
