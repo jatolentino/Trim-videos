@@ -26,4 +26,3 @@ for i in range(len(listnames)):
    newpathfolder.append(listpath[i].replace("/videos/","/videos1/")) # creating the new folders
    os.makedirs(newpathfolder[i])                          
    newclip.write_videofile(newpathfolder[i]+'/'+str(i+1)+newname[i])
-
