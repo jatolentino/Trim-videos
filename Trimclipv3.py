@@ -92,7 +92,6 @@ print(int(sublistnames[0].split('.')[0])+100)
 
 print(sublistpath[0])
 
-
 newname=[]
 newpathfolder=[]
 subnewname=[]
