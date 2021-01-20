@@ -127,4 +127,3 @@ for i in range(len(sublistnames)):
       suma = suma + a
    shutil.copy(subfullpath[i],subnewpathfolder[i]+"/"+str(suma+sinddexfile[i])+subnewname[i])
    ffmpeg_extract_subclip(fullpath[i],9.5,clip.duration, targetname=newpathfolder[i]+"/"+str(suma+inddexfile[i])+newname[i])
-
