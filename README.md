@@ -1,6 +1,6 @@
 # Trim-videos
 
-Trim all the videos contained in a folder, and index them by name and number according to their original ame.
+Trim all the videos contained in a folder, and index them by name and number according to their original name.
 
 # Packages
 
