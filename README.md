@@ -9,4 +9,3 @@ Trim all the videos contained in a folder, and index them by name and number acc
 - sudo python3 -m pip install moviepy
 - sudo apt-get install idle3
 - sudo apt install ubuntu-restricted-extras
-
